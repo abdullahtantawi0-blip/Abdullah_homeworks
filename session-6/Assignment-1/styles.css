@@ -1,0 +1,20 @@
+:root{
+    --brand: rgb(24, 43, 211);
+}
+h1,h2{
+    color:var(--brand);
+}
+.card{
+    background-color:rgb(31, 146, 175);
+}
+
+
+.card[data-status="open"] .status
+{
+    background-color:lightgreen;
+}
+
+.card[data-status="full"] .status
+{
+   background-color:lightgray;
+}
