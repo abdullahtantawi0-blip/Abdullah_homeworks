@@ -1,0 +1,124 @@
+:root {
+--brand: #0F172A;
+font-size: 16px;
+}
+h1{
+    color:var(--brand);
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #F1F5F9;
+}
+.Cards {
+    max-width: 384px;
+    margin: 24px auto;
+    padding: 24px 15px;
+    text-align: center;
+    background-color: #F1F5F9;
+    box-sizing: border-box;
+}
+.Cards > h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.Cards > p {
+    text-align: center;
+    color: #64748a;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.Card1{
+    text-align: right;
+    padding: 12px;
+    margin-bottom: 14px;
+    background-color: #FFFFFF;
+    border: 2px solid #cbd5e1;
+    border-inline-start: 5px solid #0369a1;
+    border-radius: 12px;
+    width: 100%;
+    display: block;
+    box-sizing:border-box;
+    margin-bottom: 16px;
+}
+.card1{
+       color: #0369a1;
+    background-color: #e0f2fe;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+.button1 {
+    
+    background-color: #0369a1;
+    color: #FFFFFF;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold; 
+}
+.Card1 > h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    white-space: nowrap;
+}
+.Card1 > p {
+    color: #64748a;
+    font-size: 20px;
+    
+}
+.Card1 > time {
+    color: #64748a;
+    font-size: 20px;
+    
+}
+.Card2{
+    text-align: right;
+    padding: 12px;
+    margin-bottom: 14px;
+    background-color: #FFFFFF;
+    border: 2px solid #cbd5e1;
+    border-inline-start: 5px solid #15803d;
+    border-radius: 12px;
+    width: 100%;
+    display: block;
+    box-sizing:border-box;
+    margin-bottom: 16px;
+}
+.card2{
+       color: #15803d;
+    background-color: #dcfce7;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+.button2 {
+    
+    background-color: #15803d;
+    color: #FFFFFF;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;  
+}
+.Card2 > h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    white-space: nowrap;
+}
+.Card2 > p {
+    color: #64748a;
+    font-size: 20px;
+    
+}
+.Card2 > time {
+    color: #64748a;
+    font-size: 20px;
+    
+}
