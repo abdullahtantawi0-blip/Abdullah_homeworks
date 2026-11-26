@@ -1,0 +1,56 @@
+:root {
+--brand: #1F2937;
+font-size: 16px;
+}
+
+h1,h3{
+    color:var(--brand);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+     background-color: #F5F3FF;
+    
+}
+
+.Card {
+    
+    text-align: center;
+    padding: 25px;
+    margin: 80px auto;
+    background-color: #FFFFFF;
+    border: 2px solid #DDD6FE;
+    border-radius: 15px;
+    max-width: 400px;
+    display: block;
+    box-sizing:content-box;
+    box-shadow: 0 4px 12px rgba(109, 40, 217, 0.12) ;
+}
+.details{
+   
+    color: #6D28D9;
+    background-color: #EDE9FE;
+    padding: 6px 20px;
+    border-radius: 18px;
+    font-size: 25px;
+}
+.hogo{
+    color: #6D28D9;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Card p {
+    color: #6b7280;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+button {
+    width: 100%;
+    background-color: #6D28D9;
+    color: #FFFFFF;
+    padding: 12px;
+    border: 8px;
+    border-radius: 8px;
+    font-size: 20px;  
+}
